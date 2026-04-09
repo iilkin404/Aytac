@@ -13,6 +13,10 @@ export default defineConfig(({mode}) => {
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
+        export default defineConfig({
+  base: '/REPOSİTORİYA-ADIN/', // Məsələn: '/nail-art-studio/'
+  plugins: [react()],
+})
       },
     },
     server: {
